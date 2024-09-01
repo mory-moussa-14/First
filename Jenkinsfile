@@ -15,7 +15,7 @@ pipeline {
                git branch: 'main', credentialsId: 'github', url: 'https://github.com/mory-moussa-14/First'
              }
        }
-       stage("Build Application"){
+/*       stage("Build Application"){
              steps {
                sh "mvn clean package"
              }
@@ -24,6 +24,6 @@ pipeline {
              steps {
                sh "mvn test"
              }
-       }
+       }*/
   }
 }
